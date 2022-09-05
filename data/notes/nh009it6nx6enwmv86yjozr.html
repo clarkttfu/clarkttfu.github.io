@@ -1,0 +1,21 @@
+<h1 id="dhcp"><a aria-hidden="true" class="anchor-heading icon-link" href="#dhcp"></a>DHCP</h1>
+<p>The design of DHCP is based on an earlier protocol called the Internet Bootstrap Protocol (BOOTP) [RFC0951][RFC1542].
+BOOTP and DHCP are backward-compatible in the sense that BOOTP-only clients can make use of DHCP servers and DHCP clients can make use of BOOTP-only servers. </p>
+<p>BOOTP, and therefore DHCP as well, is carried using UDP/IP.</p>
+<p>DHCP comprises two major parts: </p>
+<ol>
+<li>address management.</li>
+</ol>
+<ul>
+<li>dynamic allocation: allocate (from pool) and revoke (on lease expiration)</li>
+<li>automatic allocation: allocate (from pool) without revoking</li>
+<li>manual allocation: fix the address (not from pool) for client </li>
+</ul>
+<ol start="2">
+<li>delivery of configuration data.</li>
+</ol>
+<p><img src="/assets/images/network.dhcp.png" alt="BOOTP/DHCP Packet"></p>
+<ul>
+<li><strong>DHCP Option</strong> is carried inside "Server Name" &#x26; "Boot File Name" field.</li>
+<li></li>
+</ul>

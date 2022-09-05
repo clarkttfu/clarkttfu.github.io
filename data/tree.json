@@ -1,0 +1,111 @@
+{
+  "roots": [
+    {
+      "key": "vYtTF9oM10fyPqClpqacH",
+      "title": "Quotes",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "navExclude": false,
+      "children": []
+    },
+    {
+      "key": "uujmp9s0301utjtlljlucjx",
+      "title": "Network",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "navExclude": false,
+      "children": [
+        {
+          "key": "nh009it6nx6enwmv86yjozr",
+          "title": "DHCP",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "navExclude": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "qhornn5u83uzl4kauj4h6fc",
+      "title": "Shell",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "navExclude": false,
+      "children": [
+        {
+          "key": "z5doepir5yd4swxnhen4kjo",
+          "title": "Expect",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "navExclude": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "umYwzkVarLn71NlQVWzl0",
+      "title": "PKI",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "navExclude": false,
+      "children": [
+        {
+          "key": "XBppmjIPEZQPfsu3eNOTd",
+          "title": "ASN.1",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "navExclude": false,
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "aV4fmpfHFF0KTIisRBufV",
+      "title": "中文",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "navExclude": false,
+      "children": [
+        {
+          "key": "smTiQYJEF9S8mDRZRmrMi",
+          "title": "名人警句",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "navExclude": false,
+          "children": []
+        },
+        {
+          "key": "vXh-HmSTsmgGA9j9IzcZ3",
+          "title": "理解 OAuth2",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "navExclude": false,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "403": null,
+    "aV4fmpfHFF0KTIisRBufV": null,
+    "smTiQYJEF9S8mDRZRmrMi": "aV4fmpfHFF0KTIisRBufV",
+    "vXh-HmSTsmgGA9j9IzcZ3": "aV4fmpfHFF0KTIisRBufV",
+    "umYwzkVarLn71NlQVWzl0": null,
+    "XBppmjIPEZQPfsu3eNOTd": "umYwzkVarLn71NlQVWzl0",
+    "qhornn5u83uzl4kauj4h6fc": null,
+    "z5doepir5yd4swxnhen4kjo": "qhornn5u83uzl4kauj4h6fc",
+    "uujmp9s0301utjtlljlucjx": null,
+    "nh009it6nx6enwmv86yjozr": "uujmp9s0301utjtlljlucjx",
+    "vYtTF9oM10fyPqClpqacH": null
+  }
+}

@@ -1,0 +1,31 @@
+<h1 id="expect"><a aria-hidden="true" class="anchor-heading icon-link" href="#expect"></a>Expect</h1>
+<p><a href="https://www.tcl.tk/man/tcl/TclCmd/contents.html">Tcl commands</a>
+<a href="https://www.tcl.tk/man/tcl8.5/tutorial/tcltutorial.html">Tcl tutorial</a></p>
+<pre><code>#!/usr/bin/expect -f
+
+set suffix [lindex $argv 0]
+if { [string length $suffix] &#x3C; 1 } {
+  puts "target vm is required"
+  exit 1
+}
+
+set     ip "192.168.122."
+append  ip "$suffix"
+
+set     userid root
+set     passwd root
+set     timeout 10
+
+set prompt "\[root@sylixos:/root\]# "
+
+puts   "Telnet $ip ..."
+
+spawn telnet $ip
+    expect "login: "
+    send "$userid\r"
+
+    expect "password: "
+    send "$passwd\r"
+
+    interact
+</code></pre>
